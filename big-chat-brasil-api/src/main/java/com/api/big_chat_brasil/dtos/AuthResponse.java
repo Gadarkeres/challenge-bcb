@@ -10,5 +10,5 @@ import lombok.Setter;
 @RequiredArgsConstructor
 public class AuthResponse {
     private final String token;
-    private final ClientRespon documentType;
+    private final ClientResponse documentType;
 }
